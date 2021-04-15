@@ -1,54 +1,106 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
 
     <head>
         <meta charset="UTF-8">
         <title>Meu Portifólio</title>
+        <style> 
+        
+        body{
+            background-color:skyblue;
+            text-align: center;
+        }
+
+        p{
+            font-family: monospace;
+            font-size: 20px;
+        }
+
+        h1{
+           font-family: fantasy; 
+        }
+
+        h3{
+            font-size: 2em;
+        }
+
+        h2{
+            font-size: 2em;
+        }
+
+        h4{
+            font-size: 25px;
+        }
+
+        .list-style{
+            text-align: center;
+            font-size: 20px;
+            font-family: monospace;
+            font-weight:lighter;
+        }
+
+        </style>
     </head>
 
     <body>
+
         <h1>Meu Portifólio Web </h1>
+
         <hr>
+
         <h2>Índice</h2>
-        <ul>
+        <ul class="list-style">
             <li><a href="#infos">Sobre mim</a></li>
             <li><a href="#skills">Minhas habilidades</a></li>
             <li><a href="#foto">Minha foto</a></li>
         </ul>
+
         <hr>
+
         <h2 id="infos">Sobre Mim</h2>
-        <h3>Juan Ribeiro Rezende</h3>    
+
+        <h3 style="font-family: sans-serif;">Juan Ribeiro Rezende</h3>    
+
         <img id="foto" width="350px" alt="Minha foto em um fundo branco com uma camisa preta" src="./Imagens/eu.png">
+
         <p>
-            Olá, me chamo Juan Ribeiro Rezende, nasci,fui criado e moro em Belo Horizonte - Minas gerais.<br>
+            Olá, me chamo Juan Ribeiro Rezende, nasci, fui criado e moro em <strong style="color: green;">Belo Horizonte - Minas gerais</strong>.<br>
             Atualmente sou estudante de <em>Desenvolvimento de Software Full-Stack</em> na Trybe.<br>
             <strong>Apaixonado</strong> por programação e pelo conhecimento.
         </p>
+
         <h4>Minhas redes</h4>
-        <ul>    
+        <ul class="list-style">    
             <li><a href="https://github.com/JuanRezende0" target="_blank">GitHub<a></li>
             <li><a href="https://www.linkedin.com/in/rezendejuan/" target="_blank">LinkedIn</a></li>    
         </ul>
+
         <hr>
+
         <h3 id="skills">Minhas Habilidades</h3>
+
         <h4>Habilidades em que mais tenho competencia</h4>
-        <ul>    
+        <ul class="list-style">    
             <li>Capacidade analítica</li>
             <li>Capacidade de adaptação</li>
             <li>Capacidade de reflexão</li>
         </ul>
+
         <h4>Outras Habilidades</h4>
-        <ul>    
+        <ul class="list-style">    
             <li>C</li>
             <li>HTML</li>
             <li>CSS</li>
         </ul>
+
         <h4>Habilidades em desenvolvimento</h4>
-        <ul>    
+        <ul class="list-style">    
             <li>JavaScript</li>
             <li>Java</li>
             <li>Python</li>
         </ul>
+
         <hr>
     </body>
 
